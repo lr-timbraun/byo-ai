@@ -1,0 +1,622 @@
+{
+  "configuration": {
+    "className": "com.liferay.object.admin.rest.dto.v1_0.ObjectDefinition",
+    "parameters": {
+      "containsHeaders": "true",
+      "createStrategy": "UPSERT",
+      "onErrorFail": "false",
+      "taskItemDelegateName": "DEFAULT",
+      "updateStrategy": "UPDATE"
+    }
+  },
+  "items": [
+    {
+      "accountEntryRestricted": false,
+      "accountEntryRestrictedObjectFieldName": "",
+      "actions": {
+        "permissions": {
+          "method": "PATCH",
+          "href": "http://localhost:8080/o/object-admin/v1.0/object-definitions/34507"
+        },
+        "get": {
+          "method": "GET",
+          "href": "http://localhost:8080/o/object-admin/v1.0/object-definitions/34507"
+        },
+        "update": {
+          "method": "PUT",
+          "href": "http://localhost:8080/o/object-admin/v1.0/object-definitions/34507"
+        },
+        "delete": {
+          "method": "DELETE",
+          "href": "http://localhost:8080/o/object-admin/v1.0/object-definitions/34507"
+        },
+        "exportObjectDefinition": {
+          "method": "GET",
+          "href": "http://localhost:8080/o/object-admin/v1.0/object-definitions/34507"
+        }
+      },
+      "active": true,
+      "dateCreated": "2024-11-04T19:59:26Z",
+      "dateModified": "2025-02-02T18:46:27Z",
+      "defaultLanguageId": "en_US",
+      "enableCategorization": true,
+      "enableComments": false,
+      "enableIndexSearch": true,
+      "enableLocalization": false,
+      "enableObjectEntryDraft": true,
+      "enableObjectEntryHistory": false,
+      "externalReferenceCode": "544d2410-b9e3-f1cb-0828-5215594c2a13",
+      "id": 34507,
+      "label": {
+        "en_US": "Registered Vehicle"
+      },
+      "modifiable": true,
+      "name": "RegisteredVehicle",
+      "objectActions": [],
+      "objectFields": [
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "a056141e-96a6-16d0-9b25-4571169285c1",
+          "id": 34534,
+          "indexed": false,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "Author"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "creator",
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": true,
+          "type": "String",
+          "unique": false
+        },
+        {
+          "DBType": "Date",
+          "businessType": "Date",
+          "externalReferenceCode": "0228276b-49ee-d618-3d91-8d9c6c35965c",
+          "id": 34535,
+          "indexed": false,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "Create Date"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "createDate",
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": true,
+          "type": "Date",
+          "unique": false
+        },
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "a53c475e-e62c-4f5e-4474-ef4548773822",
+          "id": 34536,
+          "indexed": false,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "External Reference Code"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "externalReferenceCode",
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": true,
+          "type": "String",
+          "unique": false
+        },
+        {
+          "DBType": "Long",
+          "businessType": "LongInteger",
+          "externalReferenceCode": "5d940c0f-3149-f852-9288-a023d8d25be4",
+          "id": 34537,
+          "indexed": true,
+          "indexedAsKeyword": true,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "ID"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "id",
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": true,
+          "type": "Long",
+          "unique": false
+        },
+        {
+          "DBType": "Date",
+          "businessType": "Date",
+          "externalReferenceCode": "745f49a4-0b61-b870-43fc-e7ce65e51171",
+          "id": 34538,
+          "indexed": false,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "Modified Date"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "modifiedDate",
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": true,
+          "type": "Date",
+          "unique": false
+        },
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "bf4c8136-ec8c-1892-9940-cb3f4061c543",
+          "id": 34539,
+          "indexed": false,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "Status"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "status",
+          "objectFieldSettings": [],
+          "readOnly": "true",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": true,
+          "type": "String",
+          "unique": false
+        },
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "8333002e-c26d-306a-450e-1c6edc2f9bbb",
+          "id": 34541,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "en_US",
+          "label": {
+            "en_US": "Maker"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "maker",
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "String",
+          "unique": false
+        },
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "17a6e171-5df1-3808-921b-d7cf6b61d68a",
+          "id": 34542,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "en_US",
+          "label": {
+            "en_US": "Model"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "model",
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "String",
+          "unique": false
+        },
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "687c1475-5444-2c6f-2ba4-b798e150c97a",
+          "id": 34543,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "en_US",
+          "label": {
+            "en_US": "Plate"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "plate",
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "String",
+          "unique": false
+        },
+        {
+          "DBType": "Long",
+          "businessType": "Relationship",
+          "externalReferenceCode": "be5910b9-6bb3-e08e-4663-acd13afdcaa7",
+          "id": 34558,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "Driver"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "r_driver_userId",
+          "objectDefinitionExternalReferenceCode1": "L_USER",
+          "objectFieldSettings": [
+            {
+              "name": "objectDefinition1ShortName",
+              "value": "User"
+            },
+            {
+              "name": "objectRelationshipERCObjectFieldName",
+              "value": "r_driver_userERC"
+            }
+          ],
+          "objectRelationshipExternalReferenceCode": "60bac08d-6546-2edd-8062-e8737f3dbdc0",
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "relationshipType": "oneToMany",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "Long",
+          "unique": false
+        },
+        {
+          "DBType": "Long",
+          "businessType": "Relationship",
+          "externalReferenceCode": "4a5c16d7-6bf4-ab3d-6ee7-b81c1fda5104",
+          "id": 34595,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "Car Mechanic"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "r_carMechanic_userId",
+          "objectDefinitionExternalReferenceCode1": "L_USER",
+          "objectFieldSettings": [
+            {
+              "name": "objectDefinition1ShortName",
+              "value": "User"
+            },
+            {
+              "name": "objectRelationshipERCObjectFieldName",
+              "value": "r_carMechanic_userERC"
+            }
+          ],
+          "objectRelationshipExternalReferenceCode": "7e95bed4-b83f-8dfe-8682-659a1291c6c2",
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "relationshipType": "oneToMany",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "Long",
+          "unique": false
+        },
+        {
+          "DBType": "DateTime",
+          "businessType": "DateTime",
+          "externalReferenceCode": "4cf3cf31-b90d-61c6-b794-e7b3dcdbc6a6",
+          "id": 34610,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "",
+          "label": {
+            "en_US": "Exit Date"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "exitDate",
+          "objectFieldSettings": [
+            {
+              "name": "timeStorage",
+              "value": "convertToUTC"
+            }
+          ],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "DateTime",
+          "unique": false
+        },
+        {
+          "DBType": "Clob",
+          "businessType": "LongText",
+          "externalReferenceCode": "c2d3874e-95b9-3f35-785d-bd7cae5812d5",
+          "id": 34648,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "en_US",
+          "label": {
+            "en_US": "Observations"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "observations",
+          "objectFieldSettings": [
+            {
+              "name": "showCounter",
+              "value": false
+            }
+          ],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "Clob",
+          "unique": false
+        },
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "bd87de60-0fba-4ef0-dfff-c4c2e1dc38f9",
+          "id": 35757,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "en_US",
+          "label": {
+            "en_US": "Driver Name"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "driverName",
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "String",
+          "unique": false
+        },
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "2b9ee70b-718c-5325-b956-ba0110a28ae1",
+          "id": 35759,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "en_US",
+          "label": {
+            "en_US": "Driver Email"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "driverEmail",
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "String",
+          "unique": false
+        },
+        {
+          "DBType": "String",
+          "businessType": "Text",
+          "externalReferenceCode": "472d2681-c7f1-4b55-02d9-d46a3ae7be21",
+          "id": 35760,
+          "indexed": true,
+          "indexedAsKeyword": false,
+          "indexedLanguageId": "en_US",
+          "label": {
+            "en_US": "Driver Telephone"
+          },
+          "listTypeDefinitionId": 0,
+          "localized": false,
+          "name": "driverTelephone",
+          "objectFieldSettings": [],
+          "readOnly": "false",
+          "readOnlyConditionExpression": "",
+          "required": false,
+          "state": false,
+          "system": false,
+          "type": "String",
+          "unique": false
+        }
+      ],
+      "objectFolderExternalReferenceCode": "83adf975-21b6-7a5a-dc5a-3c6389418b8f",
+      "objectLayouts": [],
+      "objectRelationships": [],
+      "objectValidationRules": [],
+      "objectViews": [
+        {
+          "dateCreated": "2025-02-02T18:46:27Z",
+          "dateModified": "2025-02-05T07:04:04Z",
+          "defaultObjectView": false,
+          "id": 39298,
+          "name": {
+            "en_US": "Default"
+          },
+          "objectDefinitionExternalReferenceCode": "544d2410-b9e3-f1cb-0828-5215594c2a13",
+          "objectDefinitionId": 34507,
+          "objectViewColumns": [
+            {
+              "id": 39803,
+              "label": {
+                "en_US": "Create Date"
+              },
+              "objectFieldName": "createDate",
+              "priority": 0
+            },
+            {
+              "id": 39804,
+              "label": {
+                "en_US": "ID"
+              },
+              "objectFieldName": "id",
+              "priority": 1
+            },
+            {
+              "id": 39805,
+              "label": {
+                "en_US": "Maker"
+              },
+              "objectFieldName": "maker",
+              "priority": 2
+            },
+            {
+              "id": 39806,
+              "label": {
+                "en_US": "Model"
+              },
+              "objectFieldName": "model",
+              "priority": 3
+            },
+            {
+              "id": 39807,
+              "label": {
+                "en_US": "Plate"
+              },
+              "objectFieldName": "plate",
+              "priority": 4
+            },
+            {
+              "id": 39808,
+              "label": {
+                "en_US": "Car Mechanic"
+              },
+              "objectFieldName": "r_carMechanic_userId",
+              "priority": 5
+            },
+            {
+              "id": 39809,
+              "label": {
+                "en_US": "Exit Date"
+              },
+              "objectFieldName": "exitDate",
+              "priority": 6
+            },
+            {
+              "id": 39810,
+              "label": {
+                "en_US": "Driver Name"
+              },
+              "objectFieldName": "driverName",
+              "priority": 7
+            }
+          ],
+          "objectViewFilterColumns": [
+            {
+              "id": 39811,
+              "objectFieldName": "r_carMechanic_userId"
+            }
+          ],
+          "objectViewSortColumns": []
+        },
+        {
+          "dateCreated": "2025-02-02T18:46:27Z",
+          "dateModified": "2025-02-05T07:30:54Z",
+          "defaultObjectView": true,
+          "id": 39308,
+          "name": {
+            "en_US": "Mobile"
+          },
+          "objectDefinitionExternalReferenceCode": "544d2410-b9e3-f1cb-0828-5215594c2a13",
+          "objectDefinitionId": 34507,
+          "objectViewColumns": [
+            {
+              "id": 39890,
+              "label": {
+                "en_US": "Plate"
+              },
+              "objectFieldName": "plate",
+              "priority": 0
+            },
+            {
+              "id": 39891,
+              "label": {
+                "en_US": "Maker"
+              },
+              "objectFieldName": "maker",
+              "priority": 1
+            },
+            {
+              "id": 39892,
+              "label": {
+                "en_US": "Model"
+              },
+              "objectFieldName": "model",
+              "priority": 2
+            },
+            {
+              "id": 39893,
+              "label": {
+                "en_US": "Create Date"
+              },
+              "objectFieldName": "createDate",
+              "priority": 3
+            }
+          ],
+          "objectViewFilterColumns": [],
+          "objectViewSortColumns": [
+            {
+              "id": 39894,
+              "objectFieldName": "createDate",
+              "priority": 0,
+              "sortOrder": "desc"
+            }
+          ]
+        }
+      ],
+      "panelCategoryKey": "control_panel.object",
+      "parameterRequired": false,
+      "pluralLabel": {
+        "en_US": "Registered Vehicles"
+      },
+      "portlet": true,
+      "restContextPath": "/o/c/registeredvehicles",
+      "scope": "company",
+      "status": {
+        "code": 0,
+        "label": "approved",
+        "label_i18n": "Approved"
+      },
+      "storageType": "default",
+      "system": false,
+      "titleObjectFieldName": "plate"
+    }
+  ]
+}
