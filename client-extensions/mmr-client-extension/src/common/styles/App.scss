@@ -1,0 +1,51 @@
+  .webcam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .webcam-container video {
+    width: min(80vw, 60vh);
+    height: min(80vw, 60vh);
+    object-fit: cover;
+    border-color: var(--brand-color-4);
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .webcam-container .btn {
+    padding: 40px;
+    font-size: 20pt;
+    min-width: 220px;
+  }
+
+  .confirm-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .confirm-container .data-field-label {
+    font-size: 14pt;
+    font-weight: bold;
+  }
+
+  .confirm-container .data-field {
+    font-size: 20pt;
+  }
+
+  .confirm-container .button-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .confirm-container .btn {
+    padding: 30px;
+    font-size: 20pt;
+  }
